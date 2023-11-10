@@ -46,4 +46,10 @@
 	 */
 	void rotarIzquierda(int tam, int vector[]);
 
+	/*
+	 * Función que muestra los elementos del vector pero rotados hacia
+	 * la derecha
+	 */
+	void rotarDerecha(int tam, int vector[]);
+
 #endif /* VECTORES_H_ */

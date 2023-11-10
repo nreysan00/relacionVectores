@@ -74,3 +74,12 @@ void rotarIzquierda(int tam, int vector[]) {
 	}
 	vector[tam-1]=primero;
 }
+
+void rotarDerecha(int tam, int vector[]) {
+	int i;
+	int ultimo=vector[tam-1];
+	for(i=tam-2;i>=0;i--){
+		vector[i+1]=vector[i];
+	}
+	vector[0]=ultimo;
+}
