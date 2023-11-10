@@ -14,8 +14,27 @@
 #define MAX 30
 
 int main(void) {
-	int tam,vector[MAX];
+	int tam,v1[MAX],v2[MAX];
 
-	puts("!!!Hello World!!!");
+	do{
+		printf("Cuantos elementos tiene el vector (1-%d)",MAX);
+		fflush(stdout);
+		scanf("%d",&tam);
+	}while(tam<=0 || tam>=MAX);
+
+	puts("¿Los vectores son paralelos?");
+
+	puts("Introduce los elementos del vector");
+	pedirVector(tam,v1);
+
+	puts("Introduce los elementos del vector");
+	pedirVector(tam,v2);
+
+	if(sonParalelos(tam,v1,v2)==0){
+		printf("Los vectores son paralelos");
+	}else
+		printf("Los vectores no son paralelos");
+
+
 	return EXIT_SUCCESS;
 }

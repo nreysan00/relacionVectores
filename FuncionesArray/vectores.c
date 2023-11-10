@@ -93,3 +93,14 @@ void mostrarMayores(int tam, int vector[], int num) {
 		}
 
 }
+
+int sonParalelos(int tam, int v1[], int v2[]) {
+	int i;
+	for(i=1; i<tam; i++){
+		if(v1[i-1]*v2[i]==v1[i]*v2[i-1]){
+			return 0;
+		}
+
+	}
+	return 1;
+}

@@ -58,4 +58,9 @@
 	 */
 	void mostrarMayores(int tam, int vector[], int num);
 
+	/*
+	 * Función que compara dos vectores e indica si son paralelos o no
+	 */
+	int sonParalelos(int tam, int v1[], int v2[]);
+
 #endif /* VECTORES_H_ */
