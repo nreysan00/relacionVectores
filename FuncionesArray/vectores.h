@@ -40,4 +40,10 @@
 	 */
 	void elementosIntervalo(int tam, int vector[], int ini, int fin);
 
+	/*
+	 * Función que muestra los elementos del vector pero rotados hacia
+	 * la izquierda
+	 */
+	void rotarIzquierda(int tam, int vector[]);
+
 #endif /* VECTORES_H_ */

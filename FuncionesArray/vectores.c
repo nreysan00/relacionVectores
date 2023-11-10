@@ -66,3 +66,11 @@ void elementosIntervalo(int tam, int vector[], int ini, int fin){
 	}
 }
 
+void rotarIzquierda(int tam, int vector[]) {
+	int i;
+	int primero=vector[0];
+	for(i=0;i<tam-1;i++){
+		vector[i]=vector[i+1];
+	}
+	vector[tam-1]=primero;
+}
