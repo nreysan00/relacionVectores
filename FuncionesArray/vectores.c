@@ -83,3 +83,13 @@ void rotarDerecha(int tam, int vector[]) {
 	}
 	vector[0]=ultimo;
 }
+
+void mostrarMayores(int tam, int vector[], int num) {
+	int i;
+		for(i=0;i<tam;i++){
+			if(vector[i]>=num){
+				printf("%d ",vector[i]);
+			}
+		}
+
+}

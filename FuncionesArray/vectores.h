@@ -52,4 +52,10 @@
 	 */
 	void rotarDerecha(int tam, int vector[]);
 
+	/*
+	 * Función que busca un número mayor que A, y a partir de él inclusive,
+	 * visualiza todos los valores hasta él ultimo del array
+	 */
+	void mostrarMayores(int tam, int vector[], int num);
+
 #endif /* VECTORES_H_ */
