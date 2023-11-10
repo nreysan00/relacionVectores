@@ -56,3 +56,13 @@ void mostrarMenoresQue(int tam, int vector[], int num) {
 		}
 	}
 }
+
+void elementosIntervalo(int tam, int vector[], int ini, int fin){
+	int i;
+	for(i=0;i<tam;i++) {
+		if(vector[i]>ini && vector[i]<fin){
+			printf("%d ",vector[i]);
+		}
+	}
+}
+

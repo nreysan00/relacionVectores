@@ -34,4 +34,10 @@
 	 */
 	void mostrarMenoresQue(int tam, int vector[], int num);
 
+	/*
+	 * Funcion que muestra el intervalo de números de un vector
+	 * (intervalo pedido por teclado)
+	 */
+	void elementosIntervalo(int tam, int vector[], int ini, int fin);
+
 #endif /* VECTORES_H_ */
