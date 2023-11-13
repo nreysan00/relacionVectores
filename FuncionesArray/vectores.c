@@ -104,3 +104,17 @@ int sonParalelos(int tam, int v1[], int v2[]) {
 	}
 	return 1;
 }
+
+int esCapicua(int tam,int vector[]) {
+	int i;
+	int j=tam-1;
+	for(i=0 ;i<tam; i++){
+		if(vector[i]!=vector[j]){
+			j--;
+			return 0;
+		}else{
+			return 1;
+		}
+
+	}return 0;
+}

@@ -63,4 +63,9 @@
 	 */
 	int sonParalelos(int tam, int v1[], int v2[]);
 
+	/*
+	 * Función que indica si el vector es un número capicúa o no
+	 */
+	int esCapicua(int tam,int vector[]);
+
 #endif /* VECTORES_H_ */
