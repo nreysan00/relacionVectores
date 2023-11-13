@@ -68,4 +68,8 @@
 	 */
 	int esCapicua(int tam,int vector[]);
 
+	/*
+	 *
+	 */
+	void mostrarVectorReves(int tam, int vector[]);
 #endif /* VECTORES_H_ */

@@ -118,3 +118,16 @@ int esCapicua(int tam,int vector[]) {
 
 	}return 0;
 }
+
+void mostrarVectorReves(int tam, int vector[]) {
+	int i=0;
+	int aux;
+	int j=tam-1;
+	do{
+		aux=vector[i];
+		vector[i]=vector[j];
+		vector[j]=aux;
+		j--;
+		i++;
+	}while(i<j);
+}
