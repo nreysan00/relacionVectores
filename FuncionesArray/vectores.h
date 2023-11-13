@@ -69,7 +69,7 @@
 	int esCapicua(int tam,int vector[]);
 
 	/*
-	 *
+	 *Función que devuelve un vector al revés
 	 */
 	void mostrarVectorReves(int tam, int vector[]);
 #endif /* VECTORES_H_ */
